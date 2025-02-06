@@ -1,0 +1,14 @@
+package control;
+
+import java.util.Scanner;
+
+public class controlst {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter number");
+	int n=sc.nextInt();
+	for (int i=n; n<=10; i++) {
+		System.out.println(+n);
+	}
+}
+}
